@@ -12,7 +12,7 @@ html,body {
     display: flex;
     justify-content: space-between;
     background: rgba(218, 212, 219, .1);
-    height: 80px;
+    height: 5.714rem; /*80px*/
     align-items: center;
     margin: 0;
     padding: 0;
@@ -22,11 +22,11 @@ html,body {
     left: 0;
     right: 0;
     transition: all .4s;
-    
+    z-index: 1;
 }
 
 .header-placeholder {
-    height: 80px;
+    height: 5.714rem;/*80px*/
     background: linear-gradient(224deg, #d9e2da 31.69%, #25504e 73.96%);
 }
 
@@ -63,7 +63,7 @@ a {
 
 .menu li a {
     display: block;
-    font-size: 1.143rem;
+    font-size: 1.143rem;/*16px*/
     padding: 10px 15px;
     color: rgb(0, 0, 0);
     transition: transform .7s;
@@ -78,10 +78,12 @@ a {
 
 .menu li, .menu li a{
     float: left;
+    
   }
   
   .menu li{  
   position: relative;
+  z-index: 1;
   }
   
   .menu ul li ul a{
@@ -95,32 +97,39 @@ a {
   top: 100%; 
   display: none; 
   background: rgba(232, 237, 250, 0.788);
-  border-radius: 10px;
+  border-radius: 0.714rem;/*10px*/
   }
   
   .menu li:hover>ul{
     display: block;
         }
 
+/*scroll*/
+.scroll{
+    position: fixed;
+    right: 1.071rem;/*15px*/
+    bottom: 1.428rem;/*20px*/
+    font-size:1.785rem;/*25*/
+}
+
 /*main*/
 
 .container {
     margin: 0 auto;
-    width: 86.726%;
-    /* 1150px */
-    margin-bottom: 100px;
+    width: 86.726%;/* 1150px */
+    margin-bottom: 7.142rem;/*100px*/
 }
 
 
 .introduction {
-    width: 400px;
+    width: 28.571rem;/*400*/
     position: absolute;
-    top: 250px;
-    left: 80px;
+    top: 17.857rem;/*250px*/
+    left: 5.714rem;/*80px*/
 }
 
 .introduction p {
-    font-size: 50px;
+    font-size: 3.571rem;/*50*/
     color: black;
     font-family: 'Marck Script', cursive;
 }
@@ -130,9 +139,9 @@ a {
     color: black;
     background: linear-gradient(127.12deg, #b3c9e0 31.69%, #4f7393 73.96%);
     padding: 12px 40px;
-    margin-top: 30px;
+    margin-top: 2.142rem;/*30px*/
     box-shadow: 0px 2px 6px rgba(122, 109, 115, 0.55);
-    border-radius: 10px;
+    border-radius: 0.714;/*10px*/
     transition: transform .7s;
 }
 
@@ -144,8 +153,8 @@ a {
 /*slider*/
 
 .main-slider {
-    width: 530px;
-    height: 500px;
+    width: 37.857rem;/*530px*/
+    height: 35.714rem;/*500px*/
 }
 
 .main-slider img {
@@ -156,21 +165,21 @@ a {
 /*second page*/
 h1{
     font-family: 'Marck Script', cursive;
-    font-size: 90px;
+    font-size: 6.428rem;/*90px*/
     color: #0f253c;
     position: absolute;
     left: 40%;
-    top:90px;
+    top:6.428rem;/*90px*/
 }
 
 h2 {
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 80px;
+    font-size: 2.857rem;/*40px*/
+    margin-bottom: 5.714rem;/*80px*/
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 1.428rem;/*20px*/
     text-align: justify;
 }
 
@@ -181,7 +190,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 40px;
+    gap: 2.857rem;/*40px*/
 }
 
 .ocean-content a{
@@ -189,7 +198,7 @@ h2 {
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 25rem;/*350px*/
     width: 100%;
     transition: transform .5s;
     
@@ -201,7 +210,7 @@ h2 {
 
 .caption{
 text-align: center;
-font-size: 25px;
+font-size: 1.785rem;/*25px*/
 }
 
 /*news*/
@@ -210,15 +219,15 @@ font-size: 25px;
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 100px;
-    margin-bottom: 100px;
+    gap: 7.142rem;/*100px*/
+    margin-bottom:7.142rem;/*100px*/
 }
 
 .news{
     background: white;
-    padding: 1.071rem;
+    padding: 1.071rem;/*15px*/
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    border-radius: 0.714rem;/*10px*/
     
 }
 
@@ -228,7 +237,7 @@ font-size: 25px;
     background-size: cover;
     box-sizing: border-box;
     background-position: center;
-    height: 450px;
+    height: 32.142rem;/*450px*/
     width: 100%;
 }
 
@@ -239,11 +248,11 @@ background-size: 150%;
 .news-clip{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 3.571rem;/*50px*/
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    padding: 50px;
-    margin-bottom: 180px;
+    border-radius: 0.714rem;/*10px*/
+    padding:3.571rem;/*50px*/
+    margin-bottom: 12.857rem;/*180px*/
 }
 
 
@@ -251,7 +260,7 @@ background-size: 150%;
 
 footer{
    background: rgb(145, 173, 250);
-   padding: 20px;
+   padding: 1.428rem;/*20px*/
 }
 
 .footer{
@@ -263,20 +272,20 @@ footer{
 .footer-content{
 display: block;
 text-align: center;
-font-size: 30px;
+font-size:2.142rem;/*30px*/
 color: white;
-margin-bottom: 20px;
+margin-bottom: 1.428rem;/*20px*/
 }
 
 .fa {
-    padding: 25px;
-    font-size: 20px;
-    width: 30px;
+    padding: 1.785rem;/*25px*/
+    font-size: 1.428rem;/*20px*/
+    width: 2.142rem;/*30px*/
     text-align: center;
     text-decoration: none;
-    margin: 10px;
+    margin:  0.714rem;/*10px*/
     border-radius: 50%;
-    margin-bottom: 70px;
+    margin-bottom: 5rem;/*70px*/
     transition: transform .4s;
 }
 
@@ -317,10 +326,10 @@ margin-bottom: 20px;
 
 .info-link{
     display:block;
-    font-size: 15px;
+    font-size: 1.071rem;/*15px*/
     color: rgb(2, 2, 58);
-    margin-bottom: 15px;
-    margin-left: 20px;
+    margin-bottom: 1.071rem;/*15px*/
+    margin-left: 1.428rem;/*20px*/
 }
 
 .new-link{

@@ -1,0 +1,32 @@
+html,body{
+    margin: 0;
+}
+
+.header-placeholder {
+    height: 5.714rem; /*80px*/
+    background: linear-gradient(224deg, #dedede 31.69%, #acb7d5 73.96%);
+}
+
+#gallery{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2.142rem;/*30px*/
+    width: 100%;
+    height: 64.285rem;/*900px*/
+    margin-top: 3.571rem;/*50*/
+}
+
+.gallery-item{
+    box-shadow: 0px 2px 6px rgba(40, 33, 78, 0.3);
+    border-radius: 0.714rem;/*10px*/
+    transition: transform .5s;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gallery-item:hover{
+    background-size: 150%;
+

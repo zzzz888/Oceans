@@ -1,0 +1,76 @@
+html,body{
+    margin: 0;
+}
+
+.bgr-Artic{
+    background-image: url(https://images.unsplash.com/photo-1535752385016-16aa049b6a8d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1396&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-placeholder {
+    height: 5.714rem; /*80px*/
+    background: linear-gradient(224deg, #93b8dd 31.69%, #549ccc 73.96%);
+}
+
+.title-Artic{
+    margin-top: 5.714rem; /*80px*/
+    margin-bottom: 5rem;/*70px*/
+    text-align: center;
+    font-size: 3.571rem;/*50*/
+    font-family: 'Marck Script', cursive;
+
+   }
+
+   .info-Artic{
+    margin: 0 auto;
+    width: 50rem;/*700px*/
+    text-align: justify;
+    font-size: 1.285rem;/*18px*/
+  }
+
+  .Artic-content{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .img-a{
+width: 21.428rem;/*300px*/
+
+  }
+
+  .img-hover{
+    transition: transform .8s;
+  }
+
+  .img-a img:hover{
+    transform: translateX(35px);
+  }
+
+  .img-b{
+width: 21.428rem;/*300px*/
+margin-top: 7.142rem;/*100px*/
+margin-right:  2.142rem;/*30px*/
+  }
+
+  .img-b img:hover{
+    transform: translateX(-35px);
+  }
+
+  .Artic-content p{
+      width: 17.857rem;/*250px*/
+      text-align: justify;
+      font-size: 1.142rem;/*16px*/
+      margin-top: 14.285rem;/*200px*/
+      box-shadow: 1px 1px 20px 12px rgb(46 85 230 / 55%);
+      padding: 1.428rem;/*20px*/
+  }
+
+  .img-c img{
+    margin-left: 21.428rem;/*300px*/
+    transition: transform .8s;
+    }
+
+    .img-c img:hover{
+      transform: scale(1.5,1.5);
+    }

@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+}
+
+.bgr-Indian {
+    background-image: url(../img_Indian_Ocean/photo-1511275418755-86ff6ff0bf6d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header-placeholder {
+    height: 5.714rem; /*80px*/
+    background: linear-gradient(224deg, #e9dde1 31.69%, #cbc2c3 73.96%);
+}
+
+.title-Indian{
+    margin-top: 5.714rem; /*80px*/
+    margin-bottom: 5rem;/*70px*/
+    text-align: center;
+    font-size: 3.571rem;/*50*/
+    font-family: 'Marck Script', cursive;
+
+   }
+
+   .info-Indian{
+    margin: 0 auto;
+    width: 50rem;/*700px*/
+    text-align: justify;
+    font-size: 1.285rem;/*18px*/
+    margin-bottom: 14.285rem;/*200px*/
+  }
+
+  h5{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.285rem;/*18px*/
+}
+
+.Indian-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-a{
+    width: 17.857rem;/*250px*/
+    height: 26.428rem;/*370px*/
+    background: rgb(207 216 226);
+    border-radius: 0.714rem;/*10px*/
+    padding: 0 20px;
+    margin-left: 3.571rem;/*50*/
+}
+
+.info-b{
+    width: 17.857rem;/*250px*/
+    background: rgb(0 85 99);
+    border-radius: 0.714rem;/*10px*/
+    padding: 0 20px;
+    margin-right: 3.571rem;/*50*/
+    margin-top: 21.428rem;/*300px*/
+}
+
+.Indian-content a {
+    color:whitesmoke;
+}

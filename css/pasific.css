@@ -10,32 +10,32 @@ html,body{
 }
 
 .header-placeholder {
-    height: 80px;
+    height: 5.714rem; /*80px*/
     background: linear-gradient(224deg, #008dba 31.69%, #00b5e1 73.96%);
 }
 
 .title-Pasific{
-    margin-top: 80px;
-    margin-bottom: 70px;
+    margin-top: 5.714rem; /*80px*/
+    margin-bottom: 5rem;/*70px*/
     text-align: center;
-    font-size: 50px;
+    font-size: 3.571rem;/*50*/
     font-family: 'Marck Script', cursive;
 
    }
   
 h5{
     font-family: 'Pacifico', cursive;
-    font-size: 28px;
+    font-size: 2rem;/*28px*/
     text-align: center;
 
 }
 
   .info-Pasific{
     margin: 0 auto;
-    width: 700px;
+    width:  50rem;/*700px*/
     text-align: justify;
-    font-size: 20px;
-    margin-bottom: 200px;
+    font-size: 1.428rem;/*20px*/
+    margin-bottom: 14.285rem;/*200px*/
   }
 
   .Pasific-content{
@@ -45,17 +45,17 @@ h5{
   } 
 
   .Pasific-content-a{
-      width: 500px;
-      height: 400px;
+      width: 35.714rem;/*500px*/
+      height: 28.571rem;/*400px*/
       background: linear-gradient(224deg, #0093b8 31.69%, #4f7393 73.96%);
       padding: 0 20px;
-      margin-left: 20px;
-      border-radius: 15px;
+      margin-left: 1.428rem;/*20px*/
+      border-radius: 1.071rem;/*15px*/
     }
 
     .Pasific-content-a p{
         text-align: center;
-        font-size: 16px;
+        font-size: 1.142rem;/*16px*/
     }
 
     .Pasific-content-a a{
@@ -65,8 +65,8 @@ h5{
     /*slider*/
 
     .main-slider {
-        width: 530px;
-        height: 500px;
+        width: 37.857rem;/*530px*/
+        height: 35.714rem;/*500px*/
     }
     
     .main-slider img {
