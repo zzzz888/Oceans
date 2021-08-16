@@ -11,7 +11,7 @@ html,body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    background: rgba(218, 212, 219, .1);
+    background: rgba(97, 49, 105, 0.1);
     height: 5.714rem; /*80px*/
     align-items: center;
     margin: 0;
@@ -72,6 +72,13 @@ a {
 .menu li a:hover {
     color: rgb(0, 0, 0);
     transform: translateY(-5px);
+}
+
+.logo{
+    display: block;
+    background-image: url(img/LogoMakr-72JPob.png);
+    width: 150px;
+    height: 150px;
 }
 
 /*submenu*/
@@ -141,7 +148,7 @@ a {
     padding: 12px 40px;
     margin-top: 2.142rem;/*30px*/
     box-shadow: 0px 2px 6px rgba(122, 109, 115, 0.55);
-    border-radius: 0.714;/*10px*/
+    border-radius: 0.714rem;/*10px*/
     transition: transform .7s;
 }
 
@@ -153,8 +160,8 @@ a {
 /*slider*/
 
 .main-slider {
-    width: 37.857rem;/*530px*/
-    height: 35.714rem;/*500px*/
+    margin: 0 auto;
+    width: 46.428rem;/*650px*/
 }
 
 .main-slider img {
